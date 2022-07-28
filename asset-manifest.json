@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/silly-games/static/css/main.eb511229.css",
+    "main.js": "/silly-games/static/js/main.c7a437bb.js",
+    "static/media/bg.jpg": "/silly-games/static/media/bg.78ae783fcf02c764ca94.jpg",
+    "static/media/gta5.jpeg": "/silly-games/static/media/gta5.bf78038f398d66442a4c.jpeg",
+    "static/media/rdr2.jpeg": "/silly-games/static/media/rdr2.cc3275cb2fd64a465750.jpeg",
+    "static/media/nba.webp": "/silly-games/static/media/nba.edb27e3c2ff72ab5b181.webp",
+    "static/media/mortal_kombat.webp": "/silly-games/static/media/mortal_kombat.ff43d108847f4f5b4fa7.webp",
+    "static/media/south_park.webp": "/silly-games/static/media/south_park.5e5e9879ef00e98287bb.webp",
+    "static/media/watch_dogs.webp": "/silly-games/static/media/watch_dogs.a40f95f9a87403c3ff4f.webp",
+    "index.html": "/silly-games/index.html",
+    "main.eb511229.css.map": "/silly-games/static/css/main.eb511229.css.map",
+    "main.c7a437bb.js.map": "/silly-games/static/js/main.c7a437bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb511229.css",
+    "static/js/main.c7a437bb.js"
+  ]
+}
