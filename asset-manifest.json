@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/silly-games/static/css/main.7ef2fec4.css",
-    "main.js": "/silly-games/static/js/main.6ef406a5.js",
-    "static/css/292.ab3d8bf3.chunk.css": "/silly-games/static/css/292.ab3d8bf3.chunk.css",
+    "main.css": "/silly-games/static/css/main.fc3e4a0c.css",
+    "main.js": "/silly-games/static/js/main.816783f0.js",
+    "static/css/292.d79db9b1.chunk.css": "/silly-games/static/css/292.d79db9b1.chunk.css",
     "static/js/292.94ad2652.chunk.js": "/silly-games/static/js/292.94ad2652.chunk.js",
     "static/media/bg.jpg": "/silly-games/static/media/bg.78ae783fcf02c764ca94.jpg",
     "static/media/gta5.jpeg": "/silly-games/static/media/gta5.bf78038f398d66442a4c.jpeg",
@@ -12,13 +12,13 @@
     "static/media/south_park.webp": "/silly-games/static/media/south_park.5e5e9879ef00e98287bb.webp",
     "static/media/watch_dogs.webp": "/silly-games/static/media/watch_dogs.a40f95f9a87403c3ff4f.webp",
     "index.html": "/silly-games/index.html",
-    "main.7ef2fec4.css.map": "/silly-games/static/css/main.7ef2fec4.css.map",
-    "main.6ef406a5.js.map": "/silly-games/static/js/main.6ef406a5.js.map",
-    "292.ab3d8bf3.chunk.css.map": "/silly-games/static/css/292.ab3d8bf3.chunk.css.map",
+    "main.fc3e4a0c.css.map": "/silly-games/static/css/main.fc3e4a0c.css.map",
+    "main.816783f0.js.map": "/silly-games/static/js/main.816783f0.js.map",
+    "292.d79db9b1.chunk.css.map": "/silly-games/static/css/292.d79db9b1.chunk.css.map",
     "292.94ad2652.chunk.js.map": "/silly-games/static/js/292.94ad2652.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ef2fec4.css",
-    "static/js/main.6ef406a5.js"
+    "static/css/main.fc3e4a0c.css",
+    "static/js/main.816783f0.js"
   ]
 }
