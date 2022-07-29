@@ -1,0 +1,131 @@
+$primary-color: #b40c0c;
+
+.header {
+  height: 10rem;
+  width: auto;
+  background: rgb(180, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 12, 12, 1) 25%,
+    rgb(194, 58, 58) 86%
+  );
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #fff;
+  }
+
+  &__nav {
+    display: flex;
+    & ul {
+      display: flex;
+    }
+
+    & li {
+      text-transform: uppercase;
+      list-style: none;
+      font-size: 2rem;
+      margin-right: 5rem;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    & li a {
+      text-decoration: none;
+      color: #fff;
+
+      &.active {
+        border-bottom: 0.2rem solid #fff;
+      }
+
+      &:hover {
+        border-bottom: 0.2rem solid #fff;
+      }
+    }
+  }
+}
+
+.navbar {
+  display: none;
+  min-height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.4rem;
+
+  &__item {
+    list-style: none;
+  }
+
+  &__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 5rem;
+  }
+}
+
+.menu {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@media (max-width: 800px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger_active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger_active .bar:nth-child(1) {
+    transform: translateY(.8rem) rotate(45deg);
+  }
+
+  .hamburger_active .bar:nth-child(3) {
+    transform: translateY(-.8rem) rotate(-45deg);
+  }
+
+  .navbar {
+    display: flex;
+
+    &__item {
+      margin: 1.6rem 0;
+    }
+  }
+
+  .menu_active {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 10rem;
+    gap: 0;
+    flex-direction: column;
+    background-color: #b40c0c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
