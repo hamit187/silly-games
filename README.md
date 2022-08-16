@@ -1,1 +1,1 @@
-A simple mock-up playstation game store build in react using redux & react-router.
+A simple mock-up playstation game store built in react using redux & react-router.
